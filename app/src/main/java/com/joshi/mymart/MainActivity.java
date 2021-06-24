@@ -24,11 +24,10 @@ public class MainActivity extends AppCompatActivity {
         progressBar.setVisibility(View.GONE);
         if (auth.getCurrentUser() != null){
             progressBar.setVisibility(View.VISIBLE);
-            startActivity(new Intent(MainActivity.this,HomeActivity.class));
+            startActivity(new Intent(MainActivity.this,GroccHomeActivity.class));
             Toast.makeText(this, "Please wait you are already login", Toast.LENGTH_SHORT).show();
             finish();
         }
-
     }
 
     public void login(View view) {

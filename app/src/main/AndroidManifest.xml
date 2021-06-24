@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyMart">
-        <activity android:name=".HomeActivity"></activity>
+        <activity
+            android:name=".GroccHomeActivity"
+            android:label="@string/title_activity_grocc_home"
+            android:theme="@style/Theme.MyMart.NoActionBar"></activity>
+        <activity
+            android:name=".GroHomeActivity"
+            android:label="@string/title_activity_gro_home"
+            android:theme="@style/Theme.MyMart.NoActionBar"></activity>
+        <activity android:name=".AppHomeActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".MainActivity">
