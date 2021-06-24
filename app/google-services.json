@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "699651139913",
+    "project_id": "my-mart-49075",
+    "storage_bucket": "my-mart-49075.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699651139913:android:80c5d8baed94eca0295298",
+        "android_client_info": {
+          "package_name": "com.joshi.mymart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699651139913-qq25g1t20lapum5p9ncassmo5e8p3kjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7TIS06JLrnn7xV1-IxFblTZH0-s9Ib3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699651139913-qq25g1t20lapum5p9ncassmo5e8p3kjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
