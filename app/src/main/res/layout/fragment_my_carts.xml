@@ -3,12 +3,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MyCartsFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/my_carts" />
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/my_carts_img"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:src="@drawable/mycart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No item in your cart"
+            android:id="@+id/my_carts_text"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintVertical_bias="0"
+            android:textColor="@color/purple_700"
+            android:textAlignment="center"
+            android:fontFamily="@font/acme"
+            app:layout_constraintBottom_toBottomOf="@id/my_carts_img"
+            android:layout_marginTop="10dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
